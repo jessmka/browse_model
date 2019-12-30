@@ -1,4 +1,4 @@
-# browse_model
+# Abandoned Browse product email feature
 This feature selects a product from a users pageviews to send a reminder email to them. It runs hourly taking in the last 24 hours of pageviews and decides if a user will receive the email. If they meet the threshold, or are randomly selected, the model will choose the highest affinity product that has inventory from their pageviews and sends an object to a webhook that will dynamically populate the email template with the chose product
 Inputs:
   * Pageviews
